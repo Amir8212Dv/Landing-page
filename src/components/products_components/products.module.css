@@ -1,0 +1,7 @@
+.carts {
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 0;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}

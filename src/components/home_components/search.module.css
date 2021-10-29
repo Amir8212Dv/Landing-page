@@ -1,0 +1,43 @@
+.container {
+    background-color:#30c0e4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 150px;
+}
+
+
+.container p {
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.container input{
+    border: none;
+    outline: none;
+    padding: 5px;
+    width: 250px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #505050;    
+}
+
+.container input::placeholder {
+    font-size: 15px;
+}
+
+.container div {
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    padding-right: 10px;
+}
+
+
+.searchIcon {
+    width: 16px;
+    cursor: pointer;
+}
+
