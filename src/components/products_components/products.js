@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import styles from './products.module.css'
+import styles from '../../styles/css/products.module.css'
 
 import Cart from '../global-components/cart';
 

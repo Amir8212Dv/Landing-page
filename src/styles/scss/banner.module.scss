@@ -1,0 +1,28 @@
+@import 'colors';
+
+#banner {
+    width: 100%;
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    left: 100px;
+    top: 30%;
+    color: $textsColor;
+    
+    h1 {
+        color: $textsColor;
+        font-size: 7rem;
+    }
+    
+    p {
+        margin-top: 20px;
+        font-size: 3rem;
+    }
+    
+    span {
+        color: $aquaBlue;
+        font-weight: bolder;
+    }
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import styles from './logos.module.css'
+import styles from '../../styles/css/logos.module.css'
 
 import Apple from '../../images/apple.jpg'
 import Samsung from '../../images/samsung.jpg'

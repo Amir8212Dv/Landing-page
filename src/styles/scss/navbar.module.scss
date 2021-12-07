@@ -1,0 +1,50 @@
+@import 'colors';
+@import 'mixin';
+
+#navbar {
+    background-color: $bgColor;
+    @include flex(space-between);
+    padding: 0 20px;
+    height: 60px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+.navbarItems {
+    display: inherit;
+    align-items: inherit;
+
+    ul {
+        color: white;
+        list-style: none;
+        padding-left: 30px;
+    }
+    
+    li {
+        font-weight: bold;
+        float: left;
+        width: 150px;
+        text-shadow: 3px 3px 10px black;
+    
+    }
+
+    a:hover {
+        font-size: 15px;
+        text-shadow: 10px 10px 10px black;
+    }
+
+}
+
+
+#Logo {
+    margin-right: 10px;
+    
+    img{
+        width: 40px;
+        border-radius: 90px;
+    }
+}

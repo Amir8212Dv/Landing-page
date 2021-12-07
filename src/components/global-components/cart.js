@@ -1,6 +1,6 @@
 import React , { Component } from 'react';
 
-import styles from './cart.module.css'
+import styles from '../../styles/css/cart.module.css'
 
 import down from '../../images/down.svg'
 import up from '../../images/up.svg'

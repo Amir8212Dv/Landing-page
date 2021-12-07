@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,MAAM,CAAC;ECDH,OAAO,EAAE,IAAI;EACb,eAAe,EDCD,YAAY;ECA1B,WAAW,EAAE,MAAM;EDCnB,MAAM,EAAE,MAAM;CACjB",
+    "sources": [
+        "carts.module.scss",
+        "_mixin.scss"
+    ],
+    "names": [],
+    "file": "carts.module.css"
+}

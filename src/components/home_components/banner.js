@@ -1,6 +1,6 @@
 import React from 'react';
 
-import styles from './banner.module.css'
+import styles from '../../styles/css/banner.module.css'
 
 import banner from '../../images/banner.jpg'
 

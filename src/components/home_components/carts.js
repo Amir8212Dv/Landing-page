@@ -1,7 +1,7 @@
 import React , {Component} from 'react';
 import {v4} from 'uuid'
 
-import styles from './carts.module.css'
+import styles from '../../styles/css/carts.module.css'
 
 import Cart from '../global-components/cart'
 

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route , Switch } from 'react-router-dom';
+import { Route , Routes } from 'react-router-dom';
 import axios from 'axios';
 
 import Navbar from './components/global-components/navbar';
@@ -25,10 +25,10 @@ class App extends Component {
         return (
             <div>
                 <Navbar />
-                <Switch>
-                    <Route path='/products' render={props => <Products products={this.state.products} {...props} />} />
-                    <Route path='/' component={Landing}/>
-                </Switch>
+                <Routes>
+                    <Route path='/products' element={<Products products={this.state.products}/>} />
+                    <Route path='/' element={<Landing />}/>
+                </Routes>
                 <Footer />
             </div>
         );

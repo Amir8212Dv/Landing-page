@@ -1,6 +1,6 @@
 import React , {Component} from 'react';
 
-import styles from './search.module.css'
+import styles from '../../styles/css/search.module.css'
 
 import searchIcon from '../../images/search.png'
 

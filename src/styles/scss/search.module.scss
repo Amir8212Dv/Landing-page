@@ -1,0 +1,42 @@
+@import 'colors';
+@import 'mixin';
+
+.container {
+    background-color:$aquaBlue;
+    @include flex(space-between);
+    padding: 60px 150px;
+
+    p {
+        color: white;
+        font-size: 3rem;
+        font-weight: bold;
+    }
+
+    input{
+        border: none;
+        outline: none;
+        padding: 5px;
+        width: 250px;
+        height: 45px;
+        font-size: 20px;
+        font-weight: lighter;
+        color: $textsColor;    
+    }
+
+    input::placeholder {
+        font-size: 15px;
+    }
+
+    div {
+        background-color: white;
+        border-radius: 5px;
+        overflow: hidden;
+        padding-right: 10px;
+    }
+}
+
+.searchIcon {
+    width: 16px;
+    cursor: pointer;
+}
+

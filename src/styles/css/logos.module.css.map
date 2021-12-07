@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,UAAU,CAAC,GAAG,CAAC;EEFX,OAAO,EAAE,IAAI;EACb,eAAe,EFED,MAAM;EEDpB,WAAW,EAAE,MAAM;EFEnB,MAAM,EAAE,SAAS;CACpB;;AAED,AAAA,GAAG,CAAC;EACA,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,IAAI;CACf;;AAED,AAAA,KAAK,CAAC;EACF,SAAS,EAAE,MAAM;EACjB,WAAW,EAAE,IAAI;EACjB,KAAK,ECdK,OAAO;CDepB",
+    "sources": [
+        "logos.module.scss",
+        "_colors.scss",
+        "_mixin.scss"
+    ],
+    "names": [],
+    "file": "logos.module.css"
+}

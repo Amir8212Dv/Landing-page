@@ -1,0 +1,6 @@
+@import 'mixin';
+
+.carts {
+    @include flex(space-around);
+    margin: 60px 0;
+}

@@ -1,0 +1,55 @@
+#navbar {
+  background-color: #a0a0a0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 20px;
+  height: 60px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+
+.navbarItems {
+  display: inherit;
+  -webkit-box-align: inherit;
+      -ms-flex-align: inherit;
+          align-items: inherit;
+}
+
+.navbarItems ul {
+  color: white;
+  list-style: none;
+  padding-left: 30px;
+}
+
+.navbarItems li {
+  font-weight: bold;
+  float: left;
+  width: 150px;
+  text-shadow: 3px 3px 10px black;
+}
+
+.navbarItems a:hover {
+  font-size: 15px;
+  text-shadow: 10px 10px 10px black;
+}
+
+#Logo {
+  margin-right: 10px;
+}
+
+#Logo img {
+  width: 40px;
+  border-radius: 90px;
+}
+/*# sourceMappingURL=navbar.module.css.map */

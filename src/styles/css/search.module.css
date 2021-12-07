@@ -1,0 +1,59 @@
+.container {
+  background-color: #30c0e4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 60px 150px;
+}
+
+.container p {
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.container input {
+  border: none;
+  outline: none;
+  padding: 5px;
+  width: 250px;
+  height: 45px;
+  font-size: 20px;
+  font-weight: lighter;
+  color: #505050;
+}
+
+.container input::-webkit-input-placeholder {
+  font-size: 15px;
+}
+
+.container input:-ms-input-placeholder {
+  font-size: 15px;
+}
+
+.container input::-ms-input-placeholder {
+  font-size: 15px;
+}
+
+.container input::placeholder {
+  font-size: 15px;
+}
+
+.container div {
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  padding-right: 10px;
+}
+
+.searchIcon {
+  width: 16px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=search.module.css.map */

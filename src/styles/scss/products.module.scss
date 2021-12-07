@@ -1,6 +1,7 @@
+@import 'mixin';
+
 .carts {
-    display: flex;
-    justify-content: space-around;
+    @include flex(space-around);
     margin: 60px 0;
     flex-wrap: wrap;
     min-height: 100vh;
